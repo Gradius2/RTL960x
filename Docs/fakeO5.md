@@ -56,4 +56,6 @@ Please note that the `HW_HWVER` and `OMCI_SW_VER` are different between Vivo and
 
 The VLAN tag for the Internet is not being assigned as it is done by the original ONU, therefore, check the output of `omcicli mib get 84` to obtain the tag. In the case of Vivo Brasil, the VLAN tag for the Internet is `885`, for Movistar Chile, it is `928`.
 
+Note: Movistar Chile (Telefonica), not always uses '928'.  In my area (Tarapaca, north of Chile), they uses '508' for VLAN.
+
 Be careful when making changes in Movistar, after 3 bad attempts the SLID and PON port will be blacklisted. If this happens, you should call `600 600 3000` and request a technical visit since they do not have a remote reset option (only for technicians).
