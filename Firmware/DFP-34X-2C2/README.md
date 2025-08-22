@@ -48,4 +48,4 @@ If your ONU only in Bridge Mode, you need to use SFU firmware such as `M114_sfp_
 # IGD Mode
 Internet Gateway Device, ONU in Router Mode, ONU is Internet Gateway, having active DHCP, PPPoE Client, etc...
 ![IGD](../../Docs/Images/xPON%20OMCI%20MIB%20IGD%20Mode.png)
-If your ONU has Wi-Fi, Internet, you need to use IGD firmware such as `M114_sfp_ODI_210702.tar`
+If your ONU has Wi-Fi, Internet, you need to use IGD firmware such as `M110_sfp_ODI_220304.tar`
