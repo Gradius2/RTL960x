@@ -22,7 +22,7 @@
 | `dd3741cbb8cb7926fdaa6386750453738dba773053a7090cc10c8018c7bb265d` | M114_sfp_ODI_hybrid_220916.tar |
 | `94348FF82019562AB0D10814D307F5594BC8C4108676E196AA34FE1C413A3C15` | M114_sfp_ODI_hybrid_221209.tar |
 
-# HGD SFU Interchangable
+# IGD SFU Interchangable
 If you upgrade IGD to SFU firmware or vice-versa, it's require to run factory reset via [erase `mtd3` partition](../../Docs/factory_reset.md#reset), then generate new MAC KEY based on MAC Address that you want to set
 
 # `M110_sfp_ODI_220817.tar`
